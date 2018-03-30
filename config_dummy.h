@@ -10,13 +10,13 @@
 static const char* WIFI_SSID = "...";
 static const char* WIFI_PASSWORD = "...";
 
-static const char* MQTT_SERVER = "...";
+static const char* MQTT_SERVER = "broker.hivemq.com";
 static const uint16_t MQTT_PORT = 1883;
 static const char* HOST_NAME = "IoTRGBLEDMatrix";
 //static const char* MQTT_USERNAME = "...";
 //static const char* MQTT_PASSWORD = "...";
 
-const char* MQTT_TOPIC_DISPLAY = "matrix/test";
+const char* MQTT_TOPIC_DISPLAY = "iot-rgb-led-matrix/clock";
 
 const uint8_t ROWS = 32;
 const uint8_t COLUMNS = 32;

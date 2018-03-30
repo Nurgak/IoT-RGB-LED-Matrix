@@ -17,56 +17,56 @@ The pin assignment is not strict and every pin can be reconfigured to another on
         <th>Reference</th>
     </tr>
     <tr>
-        <td>`OE`</td>
+        <td>OE</td>
         <td>13</td>
         <td rowspan="13"><image src="esp32_pinout.png" /></td>
     </tr>
     <tr>
-        <td>`CLK`</td>
+        <td>CLK</td>
         <td>14</td>
     </tr>
     <tr>
-        <td>`LAT`</td>
+        <td>LAT</td>
         <td>15</td>
     </tr>
     <tr>
-        <td>`CH_A`</td>
+        <td>CH_A</td>
         <td>26</td>
     </tr>
     <tr>
-        <td>`CH_B`</td>
+        <td>CH_B</td>
         <td>4</td>
     </tr>
     <tr>
-        <td>`CH_C`</td>
+        <td>CH_C</td>
         <td>27</td>
     </tr>
     <tr>
-        <td>`CH_D`</td>
+        <td>CH_D</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>`R1`</td>
+        <td>R1</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>`G1`</td>
+        <td>G1</td>
         <td>17</td>
     </tr>
     <tr>
-        <td>`BL1`</td>
+        <td>BL1</td>
         <td>18</td>
     </tr>
     <tr>
-        <td>`R2`</td>
+        <td>R2</td>
         <td>19</td>
     </tr>
     <tr>
-        <td>`G2`</td>
+        <td>G2</td>
         <td>16</td>
     </tr>
     <tr>
-        <td>`BL2`</td>
+        <td>BL2</td>
         <td>25</td>
     </tr>
 </table>
@@ -85,6 +85,8 @@ The `config_dummy.h` file hosts all the required configuration variables. This f
 * `MQTT_TOPIC_DISPLAY`: MQTT topic to listen to for the frame updates
 
 The `MQTT_USERNAME` and `MQTT_PASSWORD` definitions are optional, they can be commented out if authentication has not been enabled on the server.
+
+The HiveMQ MQTT broker configured by default publishes a "word clock" display (like the image above), provided by my own Node-RED server. This is an example for testing purposes only.
 
 # Build process
 
