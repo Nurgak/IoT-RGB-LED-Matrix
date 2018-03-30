@@ -12,7 +12,7 @@ static const char* WIFI_PASSWORD = "...";
 
 static const char* MQTT_SERVER = "...";
 static const uint16_t MQTT_PORT = 1883;
-static const char* HOST_NAME = "IoTWeatherStation";
+static const char* HOST_NAME = "IoTRGBLEDMatrix";
 //static const char* MQTT_USERNAME = "...";
 //static const char* MQTT_PASSWORD = "...";
 

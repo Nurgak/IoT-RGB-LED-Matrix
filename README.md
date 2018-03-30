@@ -2,7 +2,7 @@
 
 ![Internet-of-Things RGB LED Matrix](iot_rgb_led_matrix.jpg)
 
-This repository hosts the software for the 32x32 Internet-of-Things RGB LED Matrix, based on an ESP32 and Arduino IDE.
+This repository hosts the software for the 32x32 Internet-of-Things RGB LED Matrix, based on an ESP32 and Arduino IDE. The display data is generated on a server and transferred via MQTT.
 
 # Usage
 
@@ -19,9 +19,7 @@ The pin assignment is not strict and every pin can be reconfigured to another on
     <tr>
         <td>`OE`</td>
         <td>13</td>
-        <td rowspan="13">
-            ![ESP32 devkit pinout](esp32_pinout.png)
-        </td>
+        <td rowspan="13"><image src="esp32_pinout.png" /></td>
     </tr>
     <tr>
         <td>`CLK`</td>
